@@ -64,7 +64,6 @@ SonyTV.prototype._control = function(state, callback) {
       var post_req = http.request(post_options, function(res) {
         res.setEncoding('utf8');
         res.on('data', function (chunk) {
-          this.log("Sony TV turned off");
           this._service.setCharacteristic(Characteristic.On, false);
         });
       });
