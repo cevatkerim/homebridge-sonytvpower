@@ -22,8 +22,8 @@ function SonyTV(log, config) {
   this._service = new Service.Switch(this.name);
   this._service.getCharacteristic(Characteristic.On)
     .on('set', this._setOn.bind(this));
-  this._service.getCharacteristic(Characteristic.Off)
-    .on('set', this._setOff.bind(this));
+  this._service.getCharacteristic(Characteristic.On)
+    .off('set', this._setOff.bind(this));
 }
 
 SonyTV.prototype.getServices = function() {
