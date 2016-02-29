@@ -23,7 +23,7 @@ function SonyTV(log, config) {
   this._service.getCharacteristic(Characteristic.On)
     .on('set', this._setOn.bind(this));
   this._service.getCharacteristic(Characteristic.On)
-    .off('set', this._setOff.bind(this));
+    .on('set', this._setOff.bind(this));
 }
 
 SonyTV.prototype.getServices = function() {
@@ -76,7 +76,7 @@ SonyTV.prototype._setOff = function(off, callback) {
       res.setEncoding('utf8');
       res.on('data', function (chunk) {
         this.log("Sony TV turned off");
-        this._service.setCharacteristic(Characteristic.On, true);
+        this._service.setCharacteristic(Characteristic.On, false);
       });
     });
 
