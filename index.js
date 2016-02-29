@@ -1,10 +1,7 @@
 "use strict";
 
 var wol = require("wake_on_lan");
-var querystring = require('querystring');
 var http = require('http');
-var fs = require('fs');
-
 var Service, Characteristic;
 
 module.exports = function(homebridge) {
