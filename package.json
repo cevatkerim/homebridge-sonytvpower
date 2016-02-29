@@ -13,10 +13,10 @@
     "type": "git",
     "url": "git://github.com/tekuonline/homebridge-sonytvon.git"
   },
-  "author": "Tek Nepal",
+  "author": "Tek Nepal, saxophonedev",
   "license": "ISC",
   "dependencies": {
-    "wake_on_lan": "0.0.4"
+    "wake_on_lan": "0.0.4",
     "http": ">=0.0.0"
   },
   "engines": {
