@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-sonytvon",
-  "version": "0.1.2",
+  "name": "homebridge-sonytvpower",
+  "version": "1.0.0",
   "description": "Turn on sony tv plugin for Homebridge: https://github.com/nfarina/homebridge",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tekuonline/homebridge-sonytvon.git"
+    "url": "git://github.com/tekuonline/homebridge-sonytvpower.git"
   },
   "author": "Tek Nepal, saxophonedev",
   "license": "ISC",
@@ -24,7 +24,7 @@
     "homebridge": ">=0.2.0"
   },
   "bugs": {
-    "url": "https://github.com/tekuonline/homebridge-sonytvon/issues"
+    "url": "https://github.com/tekuonline/homebridge-sonytvpower/issues"
   },
-  "homepage": "https://github.com/tekuonline/homebridge-sonytvon#readme"
+  "homepage": "https://github.com/tekuonline/homebridge-sonytvpower#readme"
 }
