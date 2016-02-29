@@ -1,11 +1,11 @@
-# Turn on Sony TV plugin for Homebridge (beta)
-### Turn ON your Sony TV through Siri
+# Sony TV Power control
+### Turn on or off your Sony TV with Siri
 
 ###### Installing
 
 To install the plugin, head over to the machine with Homebridge set up and run
 ```
-sudo npm install -g homebridge-sonytvon
+sudo npm install -g homebridge-sonytvpower
 ```
 
 ###### Configuration
@@ -18,6 +18,6 @@ To make Homebridge aware of the new plugin, you will have to add it to your conf
       "accessory": "Sony",
       "name": "Living Room TV",
       "mac": "<mac-address of your TV>",
-      "ip": "10.0.1.23"
+      "ip": "<IP address of your TV>"
     } 
 ]
