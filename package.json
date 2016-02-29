@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "wake_on_lan": "0.0.4"
+    "http": ">=0.0.0"
   },
   "engines": {
     "node": ">=0.12.0",
