@@ -47,7 +47,7 @@ SonyTV.prototype._setOn = function(on, callback) {
   callback();
 }
 
-SonyTV.prototype._setOff = function(on, callback) {
+SonyTV.prototype._setOff = function(off, callback) {
 
   if(off){
     var post_data = "<?xml version=\"1.0\" encoding=\"utf-8\"?><s:Envelope xmlns:s=\"http:\/\/schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle=\"http:\/\/schemas.xmlsoap.org/soap/encoding/\"><s:Body><u:X_SendIRCC xmlns:u=\"urn:schemas-sony-com:service:IRCC:1\"><IRCCCode>AAAAAQAAAAEAAAAvAw==</IRCCCode></u:X_SendIRCC></s:Body></s:Envelope>";
