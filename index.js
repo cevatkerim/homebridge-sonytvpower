@@ -37,7 +37,7 @@ SonyTV.prototype._control = function(state, callback) {
         this.log("Error when sending packets", error);
       } else {
         this.log("Packets sent");
-        this._service.setCharacteristic(Characteristic.On, true);
+        this._service.setCharacteristic(Characteristic.On, false);
       }
     }.bind(this));
   }else{
