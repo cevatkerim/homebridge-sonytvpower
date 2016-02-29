@@ -55,7 +55,7 @@ SonyTV.prototype._setOff = function(on, callback) {
   if(off){
     var post_data = "<?xml version=\"1.0\" encoding=\"utf-8\"?><s:Envelope xmlns:s=\"http:\/\/schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle=\"http:\/\/schemas.xmlsoap.org/soap/encoding/\"><s:Body><u:X_SendIRCC xmlns:u=\"urn:schemas-sony-com:service:IRCC:1\"><IRCCCode>AAAAAQAAAAEAAAAvAw==</IRCCCode></u:X_SendIRCC></s:Body></s:Envelope>";
     
-    if (this.comp){
+    if (this.comp == "true"){
       var post_options = {
         host: 'closure-compiler.appspot.com',
         port: '80',
