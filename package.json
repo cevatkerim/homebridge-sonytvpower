@@ -24,7 +24,7 @@
     "homebridge": ">=0.2.0"
   },
   "bugs": {
-    "url": "https://github.com/tekuonline/homebridge-sonytvpower/issues"
+    "url": "https://github.com/saxophonedev/homebridge-sonytvpower/issues"
   },
-  "homepage": "https://github.com/tekuonline/homebridge-sonytvpower#readme"
+  "homepage": "https://github.com/saxophonedev/homebridge-sonytvpower#readme"
 }
