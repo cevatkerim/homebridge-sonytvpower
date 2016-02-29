@@ -19,5 +19,11 @@ To make Homebridge aware of the new plugin, you will have to add it to your conf
       "name": "Living Room TV",
       "mac": "<mac-address of your TV>",
       "ip": "<IP address of your TV>"
+      "compatibilityMode": "false"
     } 
 ]
+```
+
+###### Troubleshooting
+
+Set  compatibilityMode to true.
